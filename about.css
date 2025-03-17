@@ -120,3 +120,85 @@ footer .social-media a {
 .Team{
     font-family:'Dancing Script', cursive;;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; 
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5em; 
+    }
+
+    .cta-button {
+        font-size: 1.2em; 
+        padding: 8px 16px;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    h2, h3, button {
+        font-size: 1.7em; 
+    }
+
+    p {
+        font-size: 1.2em; 
+    }
+
+    .product-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 1.8em; 
+    }
+
+    .add-to-cart {
+        padding: 8px 16px;
+    }
+
+    .cart-section {
+        padding: 20px;
+    }
+
+    .cart-items {
+        gap: 10px;
+    }
+
+    .cart-total {
+        font-size: 1.8em; 
+    }
+
+    .checkout-button {
+        font-size: 1.2em; 
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer .social-media a {
+        margin: 0 5px;
+    }
+}
