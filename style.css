@@ -177,3 +177,77 @@ footer .social-media a {
     margin: 0 10px;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .cta-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 1.2em;
+    }
+
+    .add-to-cart {
+        padding: 8px 16px;
+    }
+
+    .cart-section {
+        padding: 20px;
+    }
+
+    .cart-items {
+        gap: 10px;
+    }
+
+    .cart-total {
+        font-size: 1.2em;
+    }
+
+    .checkout-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer .social-media a {
+        margin: 0 5px;
+    }
+}
