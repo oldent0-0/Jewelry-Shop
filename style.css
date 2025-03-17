@@ -80,6 +80,7 @@ nav {
 h2, h3 , button{
     margin: 20px;
     font-family: 'Dancing Script', cursive;
+    font-size: 2em;
 }
 
 p {
@@ -180,7 +181,7 @@ footer .social-media a {
 
 @media (max-width: 600px) {
     body {
-        font-size: 14px;
+        font-size: 16px; 
     }
 
     header {
@@ -196,16 +197,24 @@ footer .social-media a {
     }
 
     .hero h1 {
-        font-size: 2em;
+        font-size: 2.5em; 
     }
 
     .cta-button {
-        font-size: 1em;
+        font-size: 1.2em; 
         padding: 8px 16px;
     }
 
     .products {
         padding: 20px;
+    }
+
+    h2, h3, button {
+        font-size: 2.5em; 
+    }
+
+    p {
+        font-size: 1.2em; 
     }
 
     .product-grid {
@@ -219,7 +228,7 @@ footer .social-media a {
     }
 
     .product-card h3 {
-        font-size: 1.2em;
+        font-size: 1.8em; 
     }
 
     .add-to-cart {
@@ -235,11 +244,11 @@ footer .social-media a {
     }
 
     .cart-total {
-        font-size: 1.2em;
+        font-size: 1.8em; 
     }
 
     .checkout-button {
-        font-size: 1em;
+        font-size: 1.2em; 
         padding: 8px 16px;
     }
 
