@@ -7,16 +7,16 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #fbffbd60;
     
 }
 
-.cart-icon{
+.cart-icon {
     padding-right: 20px;
 }
 
 header {
-    background-color: #333;
+    background-color: #ffb3ba; /* pastel pink */
     color: #fff;
     padding: 20px 0;
 }
@@ -47,9 +47,8 @@ nav {
     cursor: pointer;
 }
 
-
 .hero {
-    background-image: url('https://img.freepik.com/free-vector/pastel-watercolor-painted-background_23-2148959637.jpg');
+    background-image: url('https://img.freepik.com/free-photo/watercolor-pastel-background_23-2151891309.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -60,10 +59,11 @@ nav {
 .hero h1 {
     font-size: 3em;
     font-family: 'Dancing Script', cursive;
+    color : #e28c25;
 }
 
 .cta-button {
-    background-color: #6f90c5;
+    background-color: #ffdfba;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
@@ -71,13 +71,12 @@ nav {
     border-radius: 5px;
 }
 
-
 .products {
     padding: 40px;
     text-align: center;
 }
 
-h2, h3 , button{
+h2, h3, button {
     margin: 20px;
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
@@ -85,6 +84,7 @@ h2, h3 , button{
 
 p {
     margin: 20px;
+    color: #e28c25;
 }
 
 .product-grid {
@@ -94,7 +94,7 @@ p {
 }
 
 .product-card {
-    background-color: white;
+    background-color: #ffffba; 
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -114,7 +114,7 @@ p {
 }
 
 .add-to-cart {
-    background-color: #333;
+    background-color: #e2b851; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -124,7 +124,7 @@ p {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e28c25;
 }
 
 .border1 {
@@ -134,7 +134,6 @@ a {
 .border2 {
     padding-right: 20px;
 }
-
 
 .cart-section {
     padding: 40px;
@@ -155,7 +154,7 @@ a {
 }
 
 .checkout-button {
-    background-color: #6f90c5;
+    background-color: #ffb3ba; 
     padding: 10px 20px;
     color: white;
     text-decoration: none;
@@ -165,23 +164,22 @@ a {
     border: 0;
 }
 
-
 footer {
-    background-color: #333;
+    background-color: #ffb3ba; 
     color: white;
     padding: 40px 0;
     text-align: center;
 }
 
 footer .social-media a {
-    color: white;
+    color: #e28c25;
     margin: 0 10px;
     text-decoration: none;
 }
 
 @media (max-width: 600px) {
     body {
-        font-size: 16px; 
+        font-size: 16px;
     }
 
     header {
@@ -197,11 +195,11 @@ footer .social-media a {
     }
 
     .hero h1 {
-        font-size: 2.5em; 
+        font-size: 2.5em;
     }
 
     .cta-button {
-        font-size: 1.2em; 
+        font-size: 1.2em;
         padding: 8px 16px;
     }
 
@@ -210,11 +208,11 @@ footer .social-media a {
     }
 
     h2, h3, button {
-        font-size: 1.7em; 
+        font-size: 1.7em;
     }
 
     p {
-        font-size: 1.2em; 
+        font-size: 1.2em;
     }
 
     .product-grid {
@@ -228,7 +226,7 @@ footer .social-media a {
     }
 
     .product-card h3 {
-        font-size: 1.8em; 
+        font-size: 1.8em;
     }
 
     .add-to-cart {
@@ -244,11 +242,11 @@ footer .social-media a {
     }
 
     .cart-total {
-        font-size: 1.8em; 
+        font-size: 1.8em;
     }
 
     .checkout-button {
-        font-size: 1.2em; 
+        font-size: 1.2em;
         padding: 8px 16px;
     }
 
